@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org",
+  "@type": "DrivingSchool",
+  "name": "CHARDI KLA DRIVING SCHOOL",
+  "url": "https://chardikla-driving-school.ca/",
+  "telephone": "+1-403-400-2628",
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Calgary"
+    }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Calgary",
+    "addressRegion": "AB",
+    "addressCountry": "CA"
+  },
+  "knowsLanguage": ["English", "Punjabi", "Hindi", "Urdu"],
+  "priceRange": "$$",
+  "serviceType": ["Driving lessons", "Road test preparation", "Brush-up lessons"],
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "Class 5 Package A",
+      "priceCurrency": "CAD",
+      "price": "600",
+      "description": "10 hours in-vehicle + 15 hours online. N.E. starting price (+ GST).",
+      "availability": "https://schema.org/InStock"
+    },
+    {
+      "@type": "Offer",
+      "name": "Class 5 Package B",
+      "priceCurrency": "CAD",
+      "price": "400",
+      "description": "6 hours in-vehicle + 15 hours online. N.E. starting price (+ GST).",
+      "availability": "https://schema.org/InStock"
+    },
+    {
+      "@type": "Offer",
+      "name": "Brush-Up Lessons",
+      "priceCurrency": "CAD",
+      "price": "120",
+      "description": "2-hour in-vehicle session (+ GST).",
+      "availability": "https://schema.org/InStock"
+    }
+  ]
+}
+

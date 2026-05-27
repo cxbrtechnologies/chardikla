@@ -1,0 +1,16 @@
+.reveal{
+  opacity:0;
+  transform:translateY(12px);
+  transition:opacity .55s var(--ease), transform .55s var(--ease);
+}
+.reveal.is-visible{
+  opacity:1;
+  transform:translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  .reveal{opacity:1;transform:none;transition:none}
+  .btn,.trust-card,.social-icon,.burger,.mobile-link{transition:none}
+}
+

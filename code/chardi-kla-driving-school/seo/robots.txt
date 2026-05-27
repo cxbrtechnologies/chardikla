@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://chardikla-driving-school.ca/seo/sitemap.xml
+
