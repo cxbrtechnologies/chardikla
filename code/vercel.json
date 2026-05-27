@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "chardi-kla-driving-school/**/*", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/chardi-kla-driving-school/index.html" }
+  ]
+}
+
