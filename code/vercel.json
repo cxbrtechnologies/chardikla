@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "chardi-kla-driving-school/**/*", "use": "@vercel/static" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/chardi-kla-driving-school/index.html" }
+  "rewrites": [
+    { "source": "/assets/(.*)", "destination": "/chardi-kla-driving-school/assets/$1" },
+    { "source": "/components/(.*)", "destination": "/chardi-kla-driving-school/components/$1" },
+    { "source": "/seo/(.*)", "destination": "/chardi-kla-driving-school/seo/$1" },
+    { "source": "/(.*)", "destination": "/chardi-kla-driving-school/index.html" }
   ]
 }
 
